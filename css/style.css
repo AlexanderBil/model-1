@@ -172,6 +172,7 @@
 
 .mob-menu-content li {
   margin: 0px 0px 15px 0px;
+  border-bottom: 1px solid black;
 }
 
 .mob-menu-content a {
@@ -180,7 +181,6 @@
   line-height: 40px;
   letter-spacing: 1.5px;
   font-family: Montserrat;
-  text-decoration: underline;
 }
 
 .main-menu {
