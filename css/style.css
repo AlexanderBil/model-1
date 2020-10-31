@@ -539,7 +539,7 @@
 
 @media (max-width: 767px) {
   .sliderbig .slick-dots button {
-    width: 8px;
+    width: 7px;
     height: 8px;
   }
 }
