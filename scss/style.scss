@@ -1119,9 +1119,7 @@ position: relative;
     height: 172px;
 
     @media(max-width: 767px){
-       margin: 0px 15px 25px 15px;
-                
-         
+       margin: 0px 15px 25px 15px;      
       }
 
     &-logo{
@@ -1500,5 +1498,366 @@ margin: 0px 0px 40px 0px;
     object-fit: contain;
 }
 
+//=========================Box-9=============================
+.block-9 {
+    background-color: #191919;
+    padding: 80px 0px 80px 0px;
+
+    @media(max-width: 767px){
+        padding: 25px 0px 30px 0px;
+       }
+    
 
 
+    &-content{
+        margin: 0 auto;
+       max-width: 1195px;
+       display: flex;
+       justify-content: space-between;
+       
+    @media(max-width: 767px){
+        flex-direction: column; 
+        align-items: center;
+       }
+       &-box{
+         max-width: 258px;
+         @media(max-width: 767px){
+             max-width: 100%;
+             padding: 0px 10px 0px 10px;
+           }
+         
+         
+       }
+    }
+}
+
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px 0px 5px;
+    @media(max-width: 767px){
+        
+      }
+    &-title{
+        margin: 0px 0px 30px 0px;
+        @media(max-width: 767px){
+            margin: 0px 0px 20px 0px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+        
+      &-logo{}
+
+      &-text{
+color: #ffffff;
+font-family: 'Raleway Medium';
+font-size: 34px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: right;
+      }
+    }
+    &-text{
+color: #555555;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+margin: 0px 0px 33px 0px;
+@media(max-width: 767px){
+    margin: 0px 0px 18px 0px;
+   }
+
+    }
+
+    &-link a{
+color: #d1d1d1;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+display: flex;
+align-items: center;
+position: relative;
+ &::after{
+     content: '';
+     position: absolute;
+     width: 0;
+     height: 0;
+     border-top: 5px solid transparent;
+     border-left: 10px solid #fff;
+     border-bottom: 5px solid transparent;
+     left: 90px;
+
+ }
+
+    }
+}
+
+
+
+.box-2 {
+    padding: 0px 5px 0px 5px;
+    @media(max-width: 767px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    &-title{
+color: #ffffff;
+font-family: 'Raleway Medium';
+font-size: 24px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+margin: 0px 0px 33px 0px;
+padding: 20px 0px 0px 0px;
+@media(max-width: 767px){
+    margin: 0px 0px 15px 0px;
+   }
+
+
+    }
+    &-text-1{
+        & span{
+display: block;
+color: #363636;
+font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+text-align: left;
+line-height: normal;
+}
+color: #555555;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+margin: 0px 0px 21px 0px;
+@media(max-width: 767px){
+    margin: 0px 0px 10px 0px;
+   }
+
+
+    }
+    &-text-2{
+       & span{
+           display: block;
+           
+color: #ffffff;
+font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+       }
+
+color: #c7b299;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+margin: 0px 0px 21px 0px;
+@media(max-width: 767px){
+    margin: 0px 0px 10px 0px;
+   }
+
+    }
+    &-text-3{
+      & span{
+          display: block;
+color: #363636;
+font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+      }
+color: #555555;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+    }
+}
+
+
+
+
+.box-3 {
+    padding: 0px 5px 0px 5px;
+    @media(max-width: 767px){
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+      }
+    &-title{
+        margin: 0px 0px 30px 0px;
+        @media(max-width: 767px){
+        margin: 0px 0px 15px 0px;
+        
+        }
+        
+color: #ffffff;
+font-family: 'Raleway Medium';
+font-size: 24px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding: 20px 0px 0px 0px;
+    }
+    &-text-1{
+      & a{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #00bff3;
+        font-style: normal;
+         line-height: normal;
+      }
+
+        color: #555555;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: left;
+        letter-spacing: normal;
+        margin: 0px 0px 21px 0px;
+        @media(max-width: 767px){
+        margin: 0px 0px 15px 0px;
+        
+        }
+        
+    }
+    &-text-2{
+        & a{
+            font-family: 'Montserrat';
+            font-size: 14px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #00bff3;
+            font-style: normal;
+             line-height: normal;
+          }
+          color: #555555;
+          font-family: 'Montserrat';
+          font-size: 14px;
+          font-weight: 300;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 20px;
+          text-align: left;
+          letter-spacing: normal;
+          margin: 0px 0px 21px 0px;
+          @media(max-width: 767px){
+        margin: 0px 0px 15px 0px;
+        
+        }
+          
+    }
+
+    &-text-3{
+        color: #313131;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: left;
+    }
+}
+
+
+
+
+.box-4 {
+
+    &-title{
+color: #fff;
+font-family: 'Raleway Medium';
+font-size: 24px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding: 20px 0px 0px 0px;
+margin: 0px 0px 26px 0px;
+@media(max-width: 767px){
+        margin: 0px 0px 15px 0px;
+        
+}
+
+@media(max-width: 767px){
+    text-align: center;
+    }
+
+    }
+    &-foto{
+        display: flex;
+        flex-wrap: wrap;
+        @media(max-width: 767px){
+            width: 100%;
+            justify-content: center;
+            }
+        &-item{
+            width: 125px;
+            height: 98px;
+            margin: 0px 3px 0px 0px;
+            @media(max-width: 767px){
+
+                  }
+            
+             & img{
+                 width: 100%;
+                 object-fit: cover;
+                 @media(max-width: 767px){
+                    width: 100%;
+                    object-fit: cover;
+                        }
+             }
+        }
+    }
+}
+
+   

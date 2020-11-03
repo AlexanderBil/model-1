@@ -1869,3 +1869,431 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
+
+.block-9 {
+  background-color: #191919;
+  padding: 80px 0px 80px 0px;
+}
+
+@media (max-width: 767px) {
+  .block-9 {
+    padding: 25px 0px 30px 0px;
+  }
+}
+
+.block-9-content {
+  margin: 0 auto;
+  max-width: 1195px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .block-9-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.block-9-content-box {
+  max-width: 258px;
+}
+
+@media (max-width: 767px) {
+  .block-9-content-box {
+    max-width: 100%;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+.box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 5px 0px 5px;
+}
+
+.box-1-title {
+  margin: 0px 0px 30px 0px;
+}
+
+@media (max-width: 767px) {
+  .box-1-title {
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.box-1-title-text {
+  color: #ffffff;
+  font-family: 'Raleway Medium';
+  font-size: 34px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: right;
+}
+
+.box-1-text {
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  margin: 0px 0px 33px 0px;
+}
+
+@media (max-width: 767px) {
+  .box-1-text {
+    margin: 0px 0px 18px 0px;
+  }
+}
+
+.box-1-link a {
+  color: #d1d1d1;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.box-1-link a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #fff;
+  border-bottom: 5px solid transparent;
+  left: 90px;
+}
+
+.box-2 {
+  padding: 0px 5px 0px 5px;
+}
+
+@media (max-width: 767px) {
+  .box-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.box-2-title {
+  color: #ffffff;
+  font-family: 'Raleway Medium';
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  margin: 0px 0px 33px 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+@media (max-width: 767px) {
+  .box-2-title {
+    margin: 0px 0px 15px 0px;
+  }
+}
+
+.box-2-text-1 {
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  margin: 0px 0px 21px 0px;
+}
+
+.box-2-text-1 span {
+  display: block;
+  color: #363636;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  line-height: normal;
+}
+
+@media (max-width: 767px) {
+  .box-2-text-1 {
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+.box-2-text-2 {
+  color: #c7b299;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  margin: 0px 0px 21px 0px;
+}
+
+.box-2-text-2 span {
+  display: block;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .box-2-text-2 {
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+.box-2-text-3 {
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+
+.box-2-text-3 span {
+  display: block;
+  color: #363636;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+
+.box-3 {
+  padding: 0px 5px 0px 5px;
+}
+
+@media (max-width: 767px) {
+  .box-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.box-3-title {
+  margin: 0px 0px 30px 0px;
+  color: #ffffff;
+  font-family: 'Raleway Medium';
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  padding: 20px 0px 0px 0px;
+}
+
+@media (max-width: 767px) {
+  .box-3-title {
+    margin: 0px 0px 15px 0px;
+  }
+}
+
+.box-3-text-1 {
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: normal;
+  margin: 0px 0px 21px 0px;
+}
+
+.box-3-text-1 a {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00bff3;
+  font-style: normal;
+  line-height: normal;
+}
+
+@media (max-width: 767px) {
+  .box-3-text-1 {
+    margin: 0px 0px 15px 0px;
+  }
+}
+
+.box-3-text-2 {
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: normal;
+  margin: 0px 0px 21px 0px;
+}
+
+.box-3-text-2 a {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00bff3;
+  font-style: normal;
+  line-height: normal;
+}
+
+@media (max-width: 767px) {
+  .box-3-text-2 {
+    margin: 0px 0px 15px 0px;
+  }
+}
+
+.box-3-text-3 {
+  color: #313131;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+
+.box-4-title {
+  color: #fff;
+  font-family: 'Raleway Medium';
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px 26px 0px;
+}
+
+@media (max-width: 767px) {
+  .box-4-title {
+    margin: 0px 0px 15px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .box-4-title {
+    text-align: center;
+  }
+}
+
+.box-4-foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .box-4-foto {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.box-4-foto-item {
+  width: 125px;
+  height: 98px;
+  margin: 0px 3px 0px 0px;
+}
+
+.box-4-foto-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .box-4-foto-item img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
