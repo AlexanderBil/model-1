@@ -1877,7 +1877,7 @@
 
 @media (max-width: 767px) {
   .block-9 {
-    padding: 25px 0px 30px 0px;
+    padding: 25px 0px 20px 0px;
   }
 }
 
@@ -2302,4 +2302,219 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+}
+
+.block-10 {
+  background-color: #111111;
+  padding: 45px 0px 52px 0px;
+}
+
+@media (max-width: 767px) {
+  .block-10 {
+    padding: 20px 0px 30px 0px;
+  }
+}
+
+.block-10-content {
+  margin: 0 auto;
+  max-width: 1195px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .block-10-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.block-10-content-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 0px 0px 6px;
+}
+
+@media (max-width: 767px) {
+  .block-10-content-left {
+    margin: 0px 0px 10px 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.block-10-content-left-1 {
+  padding: 0px 15px 0px 0px;
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .block-10-content-left-1 {
+    margin: 0px 0px 8px 0px;
+    text-align: center;
+  }
+}
+
+.block-10-content-left-1 span a {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #959595;
+}
+
+.block-10-content-left-2 {
+  padding: 0px 15px 0px 0px;
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .block-10-content-left-2 {
+    margin: 0px 0px 8px 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .block-10-content-left-3 {
+    margin: 0px 0px 8px 0px;
+    text-align: center;
+  }
+}
+
+.block-10-content-left-3 a {
+  padding: 0px 15px 0px 0px;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  color: #c7b299;
+}
+
+.block-10-content-left-4 a {
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: right;
+}
+
+.block-10-content-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 6px 0px 0px;
+}
+
+@media (max-width: 767px) {
+  .block-10-content-right {
+    padding: 0px 8px 0px 8px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.block-10-content-right-1 {
+  margin: 0px 15px 0px 0px;
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .block-10-content-right-1 {
+    text-align: center;
+  }
+}
+
+.block-10-content-right-1 span a {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #959595;
+}
+
+.block-10-content-right-2 {
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .block-10-content-right-2 {
+    text-align: center;
+  }
+}
+
+.block-10-content-right-2 span a {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #959595;
 }
